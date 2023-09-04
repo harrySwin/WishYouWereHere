@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WishYouWereHere" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primaryDark</item>
+        <item name="colorSecondary">@color/secondaryDark</item>
+        <item name="colorTertiary">@color/tertiaryDark</item>
+        <item name="backgroundColor">@color/backgroundDark</item>
+        <item name="android:statusBarColor">@color/secondaryDark</item>
+    </style>
+
+    <style name="LocationActivity" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/altPrimaryDark</item>
+        <item name="colorSecondary">@color/altSecondaryDark</item>
+        <item name="colorTertiary">@color/altTertiaryDark</item>
+        <item name="backgroundColor">@color/backgroundDark</item>
+        <item name="android:statusBarColor">@color/altSecondaryDark</item>
+    </style>
+</resources>
